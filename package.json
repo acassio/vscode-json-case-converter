@@ -6,6 +6,7 @@
   "engines": {
     "vscode": "^1.74.0"
   },
+  "publisher": "AcassioMarques",
   "repository": {
 		"type": "git",
 		"url": "https://github.com/acassio/vscode-json-case-converter"
