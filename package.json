@@ -1,7 +1,7 @@
 {
   "name": "json-to-from-camelcase-snake-case",
   "displayName": "JSON to/from camelCase/snake_case",
-  "description": "",
+  "description": " vscode extension to easily convert JSON object keys to/from camelCase/snake_case.",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.74.0"
@@ -10,7 +10,8 @@
     "Other"
   ],
   "activationEvents": [
-    "onCommand:json-to-from-camelcase-snake-case.helloWorld"
+    "onCommand:json-to-from-camelcase-snake-case.to_snake_case",
+    "onCommand:json-to-from-camelcase-snake-case.toCamelCase"
   ],
   "main": "./out/extension.js",
   "contributes": {
